@@ -1,0 +1,153 @@
+Index: kconfigwidgets-4.95.0/src/CMakeLists.txt
+===================================================================
+--- kconfigwidgets-4.95.0.orig/src/CMakeLists.txt	2014-01-03 04:00:34.000000000 -0800
++++ kconfigwidgets-4.95.0/src/CMakeLists.txt	2014-01-16 17:35:22.426069079 -0800
+@@ -71,5 +71,5 @@
+  DESTINATION  ${DATA_INSTALL_DIR}/kconfigwidgets/pics
+ )
+ 
+-install(PROGRAMS preparetips DESTINATION ${BIN_INSTALL_DIR} )
++install(PROGRAMS preparetips5 DESTINATION ${BIN_INSTALL_DIR} )
+ 
+Index: kconfigwidgets-4.95.0/src/preparetips
+===================================================================
+--- kconfigwidgets-4.95.0.orig/src/preparetips	2014-01-03 04:00:34.000000000 -0800
++++ /dev/null	1970-01-01 00:00:00.000000000 +0000
+@@ -1,66 +0,0 @@
+-#! /usr/bin/perl
+-# little script to extract the text from the tips file
+-# and output it, so xgettext can add the tips to the po file
+-#
+-# 2000 by Matthias Kiefer <matthias.kiefer@gmx.de>
+-
+-# IMPORTANT NOTE: Do not change the output without checking if
+-# translations still work!
+-
+-sub printText
+-{
+-	my $text = $_[0];
+-	
+-	if ( $text cmp "" )
+-	{
+-
+-	# replace \ with \\
+-	$text =~ s/\\/\\\\/g;
+-
+-	# replace " with \"
+-	$text =~ s/"/\\"/g;
+-			
+-	print "\"$text\\n\"\n";
+-	}
+-}
+-
+-open(FILE,"<","tips") or die "unable to open tips file";
+-if ( $^V ge v5.8.0 )
+-{
+-	binmode(FILE,":utf8");
+-	binmode(STDOUT,":utf8");
+-}
+-
+-$inTip=0;
+-
+-while(<FILE>)
+-{
+-	chomp;
+-
+-	# tip starts with <html>
+-	if(/^\s*<html>(.*)/io)
+-	{
+-		$inTip=1;
+-		print "// i18n: file: tips:$.\n// i18n: ectx: \@info:tipoftheday\n";
+-		print "i18n(";
+-		printText($1);
+-		next;
+-	}	
+-
+-	if($inTip!=0)
+-	{
+-		# tip ends with </html>
+-		if(/^(.*)\s*<\/html>/io)
+-		{
+-			printText($1);
+-			print ");\n\n";
+-			$inTip=0;
+-		}
+-		else
+-		{
+-			printText($_);
+-		}
+-	}   
+-}
+-
+-close(FILE);
+Index: kconfigwidgets-4.95.0/src/preparetips5
+===================================================================
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ kconfigwidgets-4.95.0/src/preparetips5	2014-01-03 04:00:34.000000000 -0800
+@@ -0,0 +1,66 @@
++#! /usr/bin/perl
++# little script to extract the text from the tips file
++# and output it, so xgettext can add the tips to the po file
++#
++# 2000 by Matthias Kiefer <matthias.kiefer@gmx.de>
++
++# IMPORTANT NOTE: Do not change the output without checking if
++# translations still work!
++
++sub printText
++{
++	my $text = $_[0];
++	
++	if ( $text cmp "" )
++	{
++
++	# replace \ with \\
++	$text =~ s/\\/\\\\/g;
++
++	# replace " with \"
++	$text =~ s/"/\\"/g;
++			
++	print "\"$text\\n\"\n";
++	}
++}
++
++open(FILE,"<","tips") or die "unable to open tips file";
++if ( $^V ge v5.8.0 )
++{
++	binmode(FILE,":utf8");
++	binmode(STDOUT,":utf8");
++}
++
++$inTip=0;
++
++while(<FILE>)
++{
++	chomp;
++
++	# tip starts with <html>
++	if(/^\s*<html>(.*)/io)
++	{
++		$inTip=1;
++		print "// i18n: file: tips:$.\n// i18n: ectx: \@info:tipoftheday\n";
++		print "i18n(";
++		printText($1);
++		next;
++	}	
++
++	if($inTip!=0)
++	{
++		# tip ends with </html>
++		if(/^(.*)\s*<\/html>/io)
++		{
++			printText($1);
++			print ");\n\n";
++			$inTip=0;
++		}
++		else
++		{
++			printText($_);
++		}
++	}   
++}
++
++close(FILE);
