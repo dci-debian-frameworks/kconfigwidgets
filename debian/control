@@ -16,7 +16,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kconfigwidgets
 Package: libkf5configwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5configwidgets4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5configwidgets5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for kconfigwidgets
  KConfigWidgets provides easy-to-use classes to create 
  configuration dialogs, as well as a set of widgets which 
@@ -24,7 +24,7 @@ Description: development files for kconfigwidgets
  .
  Contains development files for kconfigwidgets.
  
-Package: libkf5configwidgets4
+Package: libkf5configwidgets5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -34,12 +34,12 @@ Description: Extra widgets for easier configuration support.
  configuration dialogs, as well as a set of widgets which 
  uses KConfig to store their settings.
 
-Package: libkf5configwidgets4-dbg
+Package: libkf5configwidgets5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: same
-Depends: libkf5configwidgets4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5configwidgets5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kconfigwidgets
  KConfigWidgets provides easy-to-use classes to create 
  configuration dialogs, as well as a set of widgets which 
