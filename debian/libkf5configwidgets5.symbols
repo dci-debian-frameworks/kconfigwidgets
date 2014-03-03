@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5ConfigWidgets.so.4 libkf5configwidgets4 #MINVER#
+libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN10KTipDialog11qt_metacastEPKc@Base 4.96.0
