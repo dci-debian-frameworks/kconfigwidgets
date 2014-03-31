@@ -1,11 +1,7 @@
 kconfigwidgets (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  [ Jonathan Riddell ]
-  * New upstream alpha release
-  * Rename library package for soname 5
-
   [ Scarlett Clark ]
-  * Fix missing manpage. 
+  * Fix missing manpage.
 
   [ Jonathan Riddell ]
   * New upstream beta release
