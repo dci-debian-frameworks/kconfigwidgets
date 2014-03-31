@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -17,6 +17,7 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialogD0Ev@Base 4.96.0
  _ZN10KTipDialogD1Ev@Base 4.96.0
  _ZN10KTipDialogD2Ev@Base 4.96.0
+ _ZN11KHelpClient10invokeHelpERK7QStringS2_@Base 4.98.0
  _ZN12KCodecAction11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12KCodecAction11qt_metacastEPKc@Base 4.96.0
  _ZN12KCodecAction15actionTriggeredEP7QAction@Base 4.96.0
@@ -87,6 +88,7 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN13KConfigDialog6existsERK7QString@Base 4.96.0
  _ZN13KConfigDialog7addPageEP7QWidgetP19KCoreConfigSkeletonRK7QStringS6_S6_@Base 4.96.0
  _ZN13KConfigDialog7addPageEP7QWidgetRK7QStringS4_S4_b@Base 4.96.0
+ _ZN13KConfigDialog7setHelpERK7QStringS2_@Base 4.98.0
  _ZN13KConfigDialog8showHelpEv@Base 4.96.0
  _ZN13KConfigDialog9isDefaultEv@Base 4.96.0
  _ZN13KConfigDialog9showEventEP10QShowEvent@Base 4.96.0
