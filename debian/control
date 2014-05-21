@@ -29,7 +29,7 @@ Homepage: https://projects.kde.org/projects/frameworks/kconfigwidgets
 Package: libkf5configwidgets5
 Section: libdevel
 Architecture: any
-Depends: libkf5configwidgets5-data (= ${binary:Version}),
+Depends: libkf5configwidgets5-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Extra widgets for easier configuration support.
@@ -40,8 +40,8 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5configwidgets5-data
-Architecture: any
-Multi-Arch: same
+Architecture: all
+Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
 Depends: perl, ${misc:Depends}, ${shlibs:Depends}
 Description: Extra widgets for easier configuration support.
