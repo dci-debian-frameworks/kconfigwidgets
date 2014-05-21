@@ -3,45 +3,50 @@ Section: libs
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.13), qtbase5-dev,
- libkf5auth-dev (>= 4.99.0), libkf5codecs-dev (>= 4.99.0),
- kdoctools-dev (>= 4.99.0), libkf5guiaddons-dev (>= 4.99.0),
- libkf5i18n-dev (>= 4.99.0), libkf5widgetsaddons-dev (>= 4.99.0),
- xauth, xvfb, libkf5coreaddons-dev (>= 4.99.0), libkf5config-dev (>= 4.99.0),  libkf5archive-dev (>= 4.99.0), libkf5kjs-dev (>= 4.99.0),
- libxml2-utils, docbook-xml, docbook-xsl  
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               docbook-xml,
+               docbook-xsl,
+               extra-cmake-modules (>= 0.0.13),
+               kdoctools-dev (>= 4.99.0),
+               libkf5archive-dev (>= 4.99.0),
+               libkf5auth-dev (>= 4.99.0),
+               libkf5codecs-dev (>= 4.99.0),
+               libkf5config-dev (>= 4.99.0),
+               libkf5coreaddons-dev (>= 4.99.0),
+               libkf5guiaddons-dev (>= 4.99.0),
+               libkf5i18n-dev (>= 4.99.0),
+               libkf5kjs-dev (>= 4.99.0),
+               libkf5widgetsaddons-dev (>= 4.99.0),
+               libxml2-utils,
+               pkg-kde-tools,
+               qtbase5-dev,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kconfigwidgets
 
-Package: libkf5configwidgets-dev
+Package: libkf5configwidgets5
 Section: libdevel
 Architecture: any
-Depends: libkf5configwidgets5 (= ${binary:Version}), ${misc:Depends}
-Description: development files for kconfigwidgets
- KConfigWidgets provides easy-to-use classes to create 
- configuration dialogs, as well as a set of widgets which 
+Depends: libkf5configwidgets5-data (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Extra widgets for easier configuration support.
+ KConfigWidgets provides easy-to-use classes to create
+ configuration dialogs, as well as a set of widgets which
  uses KConfig to store their settings.
- .
- Contains development files for kconfigwidgets.
- 
-Package: libkf5configwidgets5
-Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}, libkf5configwidgets5-data (= ${binary:Version})
-Description: Extra widgets for easier configuration support.
- KConfigWidgets provides easy-to-use classes to create 
- configuration dialogs, as well as a set of widgets which 
- uses KConfig to store their settings.
 
 Package: libkf5configwidgets5-data
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}, perl
+Depends: perl, ${misc:Depends}, ${shlibs:Depends}
 Description: Extra widgets for easier configuration support.
- KConfigWidgets provides easy-to-use classes to create 
- configuration dialogs, as well as a set of widgets which 
+ KConfigWidgets provides easy-to-use classes to create
+ configuration dialogs, as well as a set of widgets which
  uses KConfig to store their settings.
  .
  This package contains the preparetips5 script and graphics.
@@ -53,8 +58,8 @@ Architecture: any
 Multi-Arch: same
 Depends: libkf5configwidgets5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kconfigwidgets
- KConfigWidgets provides easy-to-use classes to create 
- configuration dialogs, as well as a set of widgets which 
+ KConfigWidgets provides easy-to-use classes to create
+ configuration dialogs, as well as a set of widgets which
  uses KConfig to store their settings.
  .
  Contains debug symbols for kconfigwidgets.
