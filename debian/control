@@ -30,6 +30,12 @@ Package: libkf5configwidgets-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5configwidgets5 (= ${binary:Version}), ${misc:Depends}
+ libkf5auth-dev,
+ libkf5codecs-dev,
+ libkf5config-dev,
+ libkf5guiaddons-dev,
+ libkf5i18n-dev,
+ libkf5widgetsaddons-dev
 Description: development files for kconfigwidgets
  KConfigWidgets provides easy-to-use classes to create
  configuration dialogs, as well as a set of widgets which
