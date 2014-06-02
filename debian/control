@@ -7,17 +7,17 @@ Build-Depends: cmake,
                debhelper (>= 9.0.0),
                docbook-xml,
                docbook-xsl,
-               extra-cmake-modules (>= 0.0.13),
-               kdoctools-dev (>= 4.99.0),
-               libkf5archive-dev (>= 4.99.0),
-               libkf5auth-dev (>= 4.99.0),
-               libkf5codecs-dev (>= 4.99.0),
-               libkf5config-dev (>= 4.99.0),
-               libkf5coreaddons-dev (>= 4.99.0),
-               libkf5guiaddons-dev (>= 4.99.0),
-               libkf5i18n-dev (>= 4.99.0),
-               libkf5kjs-dev (>= 4.99.0),
-               libkf5widgetsaddons-dev (>= 4.99.0),
+               extra-cmake-modules (>= 0.0.14),
+               kdoctools-dev (>= 4.100.0),
+               libkf5archive-dev (>= 4.100.0),
+               libkf5auth-dev (>= 4.100.0),
+               libkf5codecs-dev (>= 4.100.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5guiaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5kjs-dev (>= 4.100.0),
+               libkf5widgetsaddons-dev (>= 4.100.0),
                libxml2-utils,
                pkg-kde-tools,
                qtbase5-dev,
@@ -29,13 +29,14 @@ Homepage: https://projects.kde.org/projects/frameworks/kconfigwidgets
 Package: libkf5configwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5configwidgets5 (= ${binary:Version}), ${misc:Depends}
- libkf5auth-dev,
- libkf5codecs-dev,
- libkf5config-dev,
- libkf5guiaddons-dev,
- libkf5i18n-dev,
- libkf5widgetsaddons-dev
+Depends: libkf5codecs-dev,
+         libkf5config-dev,
+         libkf5configwidgets5 (= ${binary:Version}),
+         libkf5guiaddons-dev,
+         libkf5i18n-dev,
+         libkf5widgetsaddons-dev,
+         ${misc:Depends}
+ libkf5auth-dev
 Description: development files for kconfigwidgets
  KConfigWidgets provides easy-to-use classes to create
  configuration dialogs, as well as a set of widgets which

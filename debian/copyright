@@ -8,7 +8,7 @@ Files: *
        tests/* excluding:
         -+ tests/kcolorschemedemo.cpp
         -+ tests/klanguagebuttontest.cpp
-       debian/*  
+       debian/*
 Copyright: © 1999-2000 Kurt Granroth <granroth@kde.org>
            © 1999, 2007 Simon Hausmann <hausmann@kde.org>
            © 2001-2002 Ellis Whitehead <ellis@kde.org>
@@ -67,7 +67,7 @@ Files: src/kpastetextaction.cpp
        src/krecentfilesaction_p.h
        src/kstandardaction.cpp
        src/kstandardaction.h
-       src/kstandardaction_p.h 
+       src/kstandardaction_p.h
 Copyright: 1999 Reginald Stadlbauer <reggie@kde.org>
            1999 Simon Hausmann <hausmann@kde.org>
            2000 Nicolas Hadacek <haadcek@kde.org>
@@ -77,8 +77,8 @@ Copyright: 1999 Reginald Stadlbauer <reggie@kde.org>
            2002 Ellis Whitehead <ellis@kde.org>
            2002 Joseph Wenninger <jowenn@kde.org>
            2003 Andras Mantia <amantia@kde.org>
-           2005-2006 Hamish Rodda <rodda@kde.org> 
-           1999,2000 Kurt Granroth <granroth@kde.org>  
+           2005-2006 Hamish Rodda <rodda@kde.org>
+           1999,2000 Kurt Granroth <granroth@kde.org>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -95,9 +95,9 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".      
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-  
+
 Files: autotests/* excluding:
     -? autotests/CMakeLists.txt
        src/* excluding:
@@ -116,7 +116,7 @@ Files: autotests/* excluding:
     -+ src/ktipdialog.cpp
     -+ src/ktipdialog.h
     + tests/kcolorschemedemo.cpp
-    + tests/klanguagebuttontest.cpp      
+    + tests/klanguagebuttontest.cpp
 Copyright:© 1999-2000 Kurt Granroth <granroth@kde.org>
            © 1999, 2007 Simon Hausmann <hausmann@kde.org>
            © 2001-2002 Ellis Whitehead <ellis@kde.org>
@@ -148,7 +148,7 @@ Copyright:© 1999-2000 Kurt Granroth <granroth@kde.org>
            © 2001 Michael Goffioul <kdeprint@swing.be>
            © 2010 Stephen Kelly <stephen@kdab.com>
            © 2001 Martijn Klingens <klingens@kde.org>
-           © 2010 Klarälvdalens Datakonsult AB  
+           © 2010 Klarälvdalens Datakonsult AB
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -196,4 +196,3 @@ License: MIT
  | WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
  | FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  | OTHER DEALINGS IN THE SOFTWARE.
- 
