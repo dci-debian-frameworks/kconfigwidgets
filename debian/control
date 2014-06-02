@@ -26,6 +26,17 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kconfigwidgets
 
+Package: libkf5configwidgets-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5configwidgets5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for kconfigwidgets
+ KConfigWidgets provides easy-to-use classes to create
+ configuration dialogs, as well as a set of widgets which
+ uses KConfig to store their settings.
+ .
+ Contains development files for kconfigwidgets.
+
 Package: libkf5configwidgets5
 Section: libdevel
 Architecture: any
