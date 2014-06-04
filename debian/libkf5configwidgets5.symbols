@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -55,6 +55,7 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN12KColorSchemeD1Ev@Base 4.96.0
  _ZN12KColorSchemeD2Ev@Base 4.96.0
  _ZN12KColorSchemeaSERKS_@Base 4.96.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN12KTipDatabase7Private7addTipsERK7QString@Base 4.96.0
  _ZN12KTipDatabase7Private8loadTipsERK7QString@Base 4.96.0
  _ZN12KTipDatabase7nextTipEv@Base 4.96.0
@@ -333,6 +334,10 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZNK12KColorScheme10decorationENS_14DecorationRoleE@Base 4.96.0
  _ZNK12KColorScheme10foregroundENS_14ForegroundRoleE@Base 4.96.0
  _ZNK12KColorScheme5shadeENS_9ShadeRoleE@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIdEET_PKcRKS1_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK12KTipDatabase3tipEv@Base 4.96.0
  _ZNK13KConfigDialog10metaObjectEv@Base 4.96.0
  _ZNK14KStatefulBrush5brushEN8QPalette10ColorGroupE@Base 4.96.0

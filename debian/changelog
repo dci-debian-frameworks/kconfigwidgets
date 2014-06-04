@@ -7,6 +7,11 @@ kconfigwidgets (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump depends versions
   * Bump depends versions
 
+  [ Harald Sitter ]
+  * Fix libkf5configwidgets-dev depends line (missing comma)
+  * Install localization to libkf5configwidgets-data package
+  * Update libkf5configwidgets.symbols
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:35:44 +0100
 
 kconfigwidgets (4.99.0-0ubuntu1) trusty; urgency=medium
