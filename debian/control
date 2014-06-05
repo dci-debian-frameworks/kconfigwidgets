@@ -46,7 +46,7 @@ Description: development files for kconfigwidgets
 
 Package: libkf5configwidgets5
 Architecture: any
-Depends: libkf5configwidgets5-data (= ${source:Version}),
+Depends: libkf5configwidgets-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Extra widgets for easier configuration support.
@@ -55,7 +55,7 @@ Description: Extra widgets for easier configuration support.
  uses KConfig to store their settings.
 Multi-Arch: same
 
-Package: libkf5configwidgets5-data
+Package: libkf5configwidgets-data
 Architecture: all
 Multi-Arch: foreign
 Depends: perl, ${misc:Depends}, ${shlibs:Depends}
