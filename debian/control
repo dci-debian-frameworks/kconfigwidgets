@@ -45,7 +45,6 @@ Description: development files for kconfigwidgets
  Contains development files for kconfigwidgets.
 
 Package: libkf5configwidgets5
-Section: libdevel
 Architecture: any
 Depends: libkf5configwidgets5-data (= ${source:Version}),
          ${misc:Depends},
