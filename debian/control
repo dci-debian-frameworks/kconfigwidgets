@@ -55,12 +55,10 @@ Description: Extra widgets for easier configuration support.
  configuration dialogs, as well as a set of widgets which
  uses KConfig to store their settings.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5configwidgets5-data
 Architecture: all
 Multi-Arch: foreign
-Pre-Depends: ${misc:Pre-Depends}
 Depends: perl, ${misc:Depends}, ${shlibs:Depends}
 Description: Extra widgets for easier configuration support.
  KConfigWidgets provides easy-to-use classes to create
