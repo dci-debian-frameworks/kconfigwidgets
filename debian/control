@@ -31,14 +31,14 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kc
 Package: libkf5configwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5codecs-dev,
+Depends: libkf5auth-dev,
+         libkf5codecs-dev,
          libkf5config-dev,
          libkf5configwidgets5 (= ${binary:Version}),
          libkf5guiaddons-dev,
          libkf5i18n-dev,
          libkf5widgetsaddons-dev,
-         ${misc:Depends},
-         libkf5auth-dev
+         ${misc:Depends}
 Description: development files for kconfigwidgets
  KConfigWidgets provides easy-to-use classes to create
  configuration dialogs, as well as a set of widgets which
@@ -48,6 +48,7 @@ Description: development files for kconfigwidgets
 
 Package: libkf5configwidgets5
 Architecture: any
+Multi-Arch: same
 Depends: libkf5configwidgets-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -55,7 +56,6 @@ Description: Extra widgets for easier configuration support.
  KConfigWidgets provides easy-to-use classes to create
  configuration dialogs, as well as a set of widgets which
  uses KConfig to store their settings.
-Multi-Arch: same
 
 Package: libkf5configwidgets-data
 Architecture: all
