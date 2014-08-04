@@ -2,6 +2,7 @@ kconfigwidgets (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * Removed upstream_Dont_construct_bugus_objects.patch applied upstream
+  * Patched symbols using batchpatch. 
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:42:02 -0700
 

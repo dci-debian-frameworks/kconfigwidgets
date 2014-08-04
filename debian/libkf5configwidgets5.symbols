@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -289,9 +289,6 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN21KConfigViewStateSaver9saveStateER12KConfigGroup@Base 4.96.0
  _ZN21KConfigViewStateSaverC1EP7QObject@Base 4.96.0
  _ZN21KConfigViewStateSaverC2EP7QObject@Base 4.96.0
- _ZN21KConfigViewStateSaverD0Ev@Base 4.96.0
- _ZN21KConfigViewStateSaverD1Ev@Base 4.96.0
- _ZN21KConfigViewStateSaverD2Ev@Base 4.96.0
  _ZN8KCModule10setButtonsE6QFlagsINS_6ButtonEE@Base 4.96.0
  _ZN8KCModule11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN8KCModule11qt_metacastEPKc@Base 4.96.0
