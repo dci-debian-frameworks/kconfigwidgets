@@ -1,10 +1,10 @@
-kconfigwidgets (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+kconfigwidgets (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
   * Removed upstream_Dont_construct_bugus_objects.patch applied upstream
   * Patched symbols using batchpatch. 
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:42:02 -0700
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:15:39 +0200
 
 kconfigwidgets (5.0.0-0ubuntu3) utopic; urgency=medium
 
