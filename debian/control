@@ -25,8 +25,8 @@ Build-Depends: cmake,
                xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kconfigwidgets
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kconfigwidgets
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kconfigwidgets
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kconfigwidgets.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kconfigwidgets.git
 
 Package: libkf5configwidgets-dev
 Section: libdevel
