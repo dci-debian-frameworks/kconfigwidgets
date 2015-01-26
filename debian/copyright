@@ -3,60 +3,26 @@ Upstream-Name: kconfigwidgets
 Source: https://projects.kde.org/projects/frameworks/kconfigwidgets
 
 Files: *
-       docs/*
-       docs/preparetips/*
-       tests/* excluding:
-       tests/kcolorschemedemo.cpp
-       tests/klanguagebuttontest.cpp
-Copyright: 1999-2000 Kurt Granroth <granroth@kde.org>
-           1999, 2007 Simon Hausmann <hausmann@kde.org>
-           2001-2002 Ellis Whitehead <ellis@kde.org>
-           2007, 2009 Matthew Woehlke <mw_triad@users.sourceforge.net>
-           2003 Andras Mantia <amantia@kde.org>
-           2000 Michael Koch <koch@kde.org>
-           1999 Reginald Stadlbauer <reggie@kde.org>
-           2005-2006 Hamish Rodda <rodda@kde.org>
-           2000 Nicolas Hadacek <haadcek@kde.org>
-           2001 Holger Freyther <freyther@kde.org>
-           2003 Waldo Bastian <bastian@kde.org>
-           1999-2003 Matthias Hoelzer-Kluepfel <hoelzer@kde.org> <mhk@kde.org>
-           2013 Martin Gräßlin <mgraesslin@kde.org>
-           2000-2003 Daniel Molkentin <molkentin@kde.org>
-           2000-2003 Tobias Koenig <tokoe@kde.org>
-           2002 Joseph Wenninger <jowenn@kde.org>
-           2007, 2013 David Faure <faure@kde.org> <faure+bluesystem@kde.org>
-           2003 Jason Keirstead <jason@keirstead.org>
-           2007 David Jarvie <software@astrojar.org.uk>
-           2007 Nick Shaforostoff <shafff@ukr.net>
-           2003-2006 Michel Hermier <michel.hermier@gmail.com>
-           1999-2003 Hans Petter Bieker <bieker@kde.org>
-           2008 Urs Wolfer
-           2004 Frans Englich <frans.englich@telia.com>
-           2012 Albert Astals Cid <aacid@kde.org>
-           2004 Michael Brade <brade@kde.org>
-           2009 Dario Freddi <drf@kde.org>
-           2010 KDAB Group <info@kdab.net,>
-           2001 Michael Goffioul <kdeprint@swing.be>
-           2010 Stephen Kelly <stephen@kdab.com>
-           2001 Martijn Klingens <klingens@kde.org>
-           2010 Klarälvdalens Datakonsult AB
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-
+Copyright: 2012, Albert Astals Cid <aacid@kde.org>
+           2003, Benjamin C Meyer <ben+kdelibs@meyerhome.net>
+           2009, Dario Freddi <drf@kde.org>
+           2007, David Faure <faure@kde.org>
+           2007, David Jarvie <software@astrojar.org.uk>
+           2004, Frans Englich <frans.englich@telia.com>
+           1999-2003, Hans Petter Bieker <bieker@kde.org>
+           2003, Jason Keirstead <jason@keirstead.org>
+           2010, Klarälvdalens Datakonsult AB
+           2001, Martijn Klingens <klingens@kde.org>
+           2013, Martin Gräßlin <mgraesslin@kde.org>
+           2007, Matthew Woehlke <mw_triad@users.sourceforge.net>
+           1999, Matthias Hoelzer-Kluepfel <hoelzer@kde.org>
+           2004, Michael Brade <brade@kde.org>
+           2001, Michael Goffioul <kdeprint@swing.be>
+           2003-2006, Michel Hermier <michel.hermier@gmail.com>
+           2007, Nick Shaforostoff <shafff@ukr.net>
+           2007, Simon Hausmann <hausmann@kde.org>
+           2003, Waldo Bastian <bastian@kde.org>
+License: LGPL-2+
 
 Files: src/kpastetextaction.cpp
        src/kpastetextaction.h
@@ -66,17 +32,16 @@ Files: src/kpastetextaction.cpp
        src/kstandardaction.cpp
        src/kstandardaction.h
        src/kstandardaction_p.h
-Copyright: 1999 Reginald Stadlbauer <reggie@kde.org>
-           1999 Simon Hausmann <hausmann@kde.org>
-           2000 Nicolas Hadacek <haadcek@kde.org>
-           2000 Kurt Granroth <granroth@kde.org>
-           2000 Michael Koch <koch@kde.org>
-           2001 Holger Freyther <freyther@kde.org>
-           2002 Ellis Whitehead <ellis@kde.org>
-           2002 Joseph Wenninger <jowenn@kde.org>
-           2003 Andras Mantia <amantia@kde.org>
-           2005-2006 Hamish Rodda <rodda@kde.org>
-           1999,2000 Kurt Granroth <granroth@kde.org>
+Copyright: 2003, Andras Mantia <amantia@kde.org>
+           2001-2002, Ellis Whitehead <ellis@kde.org>
+           2005-2006, Hamish Rodda <rodda@kde.org>
+           2001, Holger Freyther <freyther@kde.org>
+           2002, Joseph Wenninger <jowenn@kde.org>
+           1999-2000, Kurt Granroth <granroth@kde.org>
+           2000, Michael Koch <koch@kde.org>
+           2000, Nicolas Hadacek <haadcek@kde.org>
+           1999, Reginald Stadlbauer <reggie@kde.org>
+           1999, Simon Hausmann <hausmann@kde.org>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -95,71 +60,66 @@ License: LGPL-2
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-
-Files: autotests/*
-       tests/kcolorschemedemo.cpp
+Files: src/khelpclient.cpp
+       src/khelpclient.h
        tests/klanguagebuttontest.cpp
-       debian/*
-Copyright:1999-2000 Kurt Granroth <granroth@kde.org>
-           1999, 2007 Simon Hausmann <hausmann@kde.org>
-           2001-2002 Ellis Whitehead <ellis@kde.org>
-           2007, 2009 Matthew Woehlke <mw_triad@users.sourceforge.net>
-           2003 Andras Mantia <amantia@kde.org>
-           2000 Michael Koch <koch@kde.org>
-           1999 Reginald Stadlbauer <reggie@kde.org>
-           2005-2006 Hamish Rodda <rodda@kde.org>
-           2000 Nicolas Hadacek <haadcek@kde.org>
-           2001 Holger Freyther <freyther@kde.org>
-           2003 Waldo Bastian <bastian@kde.org>
-           1999-2003 Matthias Hoelzer-Kluepfel <hoelzer@kde.org> <mhk@kde.org>
-           2013 Martin Gräßlin <mgraesslin@kde.org>
-           2000-2003 Daniel Molkentin <molkentin@kde.org>
-           2000-2003 Tobias Koenig <tokoe@kde.org>
-           2002 Joseph Wenninger <jowenn@kde.org>
-           2007, 2013 David Faure <faure@kde.org> <faure+bluesystem@kde.org>
-           2003 Jason Keirstead <jason@keirstead.org>
-           2007 David Jarvie <software@astrojar.org.uk>
-           2007 Nick Shaforostoff <shafff@ukr.net>
-           2003-2006 Michel Hermier <michel.hermier@gmail.com>
-           1999-2003 Hans Petter Bieker <bieker@kde.org>
-           2008 Urs Wolfer
-           2004 Frans Englich <frans.englich@telia.com>
-           2012 Albert Astals Cid <aacid@kde.org>
-           2004 Michael Brade <brade@kde.org>
-           2009 Dario Freddi <drf@kde.org>
-           2010 KDAB Group <info@kdab.net,>
-           2001 Michael Goffioul <kdeprint@swing.be>
-           2010 Stephen Kelly <stephen@kdab.com>
-           2001 Martijn Klingens <klingens@kde.org>
-           2010 Klarälvdalens Datakonsult AB
-           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: LGPL-2+
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Library General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later version.
+       tests/krecentfilesactiontest.cpp
+       tests/krecentfilesactiontest.h
+Copyright: 2013, David Faure <faure+bluesystem@kde.org>
+           2012, David Faure <faure@kde.org>
+           2014, Gregor Mi <codeminister@publicstatic.de>
+License: LGPL-2+3+KDEeV
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 2 of the License or ( at
+ your option ) version 3 or, at the discretion of KDE e.V. ( which shall
+ act as a proxy as in section 14 of the GPLv3 ), any later version.
  .
  This library is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  Library General Public License for more details.
  .
- You should have received a copy of the GNU Library General Public License
+ You should have received a copy of the GNU Lesser General Public License
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
  .
- On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2",
+ likewise, the complete text of the GNU Library General Public License version
+ 3 can be found in "/usr/share/common-licenses/LGPL-3".
+
+Files: tests/kcolorutilsdemo.cpp
+       tests/kcolorutilsdemo.h
+       tests/kimageframe.cpp
+       tests/kimageframe.h
+Copyright: 2009, Matthew Woehlke <mw_triad@users.sourceforge.net>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 Files: src/ktip.h
        src/ktipdialog.cpp
        src/ktipdialog.h
-Copyright: 2000-2003 Matthias Hoelzer-Kluepfel <mhk@kde.org>
-                     Tobias Koenig <tokoe@kde.org>
-                     Daniel Molkentin <molkentin@kde.org>
-	   2008 Urs Wolfer <uwolfer @ kde.org>
-License: MIT
+Copyright: 2000-2003, Matthias Hoelzer-Kluepfel <mhk@kde.org>
+           2000-2003, Tobias Koenig <tokoe@kde.org>
+           2000-2003, Daniel Molkentin <molkentin@kde.org>
+	   2008, Urs Wolfer <uwolfer@kde.org>
+License: Expat
  Permission is hereby granted, free of charge, to any person
  obtaining a copy of this software and associated documentation
  files (the "Software"), to deal in the Software without
@@ -180,3 +140,26 @@ License: MIT
  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  OTHER DEALINGS IN THE SOFTWARE.
+
+Files: debian/*
+Copyright: 2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
+License: LGPL-2+
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
