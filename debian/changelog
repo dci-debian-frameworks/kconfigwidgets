@@ -4,6 +4,12 @@ kconfigwidgets (5.7.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 17:39:54 +0100
 
+kconfigwidgets (5.7.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:50:41 +0100
+
 kconfigwidgets (5.6.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
@@ -52,7 +58,7 @@ kconfigwidgets (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
   * Removed upstream_Dont_construct_bugus_objects.patch applied upstream
-  * Patched symbols using batchpatch. 
+  * Patched symbols using batchpatch.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:15:39 +0200
 
