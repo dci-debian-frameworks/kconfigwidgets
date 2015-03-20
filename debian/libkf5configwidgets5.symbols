@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.8.0 amd64
 libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -294,6 +294,7 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN8KCModule11qt_metacastEPKc@Base 4.96.0
  _ZN8KCModule12setAboutDataEPK10KAboutData@Base 4.96.0
  _ZN8KCModule12setQuickHelpERK7QString@Base 4.96.0
+ _ZN8KCModule13setAuthActionERKN5KAuth6ActionE@Base 5.8.0
  _ZN8KCModule13setExportTextERK7QString@Base 4.96.0
  _ZN8KCModule13widgetChangedEv@Base 4.96.0
  _ZN8KCModule16quickHelpChangedEv@Base 4.96.0
