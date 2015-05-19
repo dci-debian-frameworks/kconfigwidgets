@@ -3,27 +3,26 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9.0.0),
+Build-Depends: cmake (>= 2.8.12),
+               debhelper (>= 9),
                docbook-xml,
                docbook-xsl,
-               extra-cmake-modules (>= 1.8.0),
-               kdoctools-dev (>= 5.9.0),
-               libkf5archive-dev (>= 5.9.0),
-               libkf5auth-dev (>= 5.9.0),
-               libkf5codecs-dev (>= 5.9.0),
-               libkf5config-dev (>= 5.9.0),
-               libkf5coreaddons-dev (>= 5.9.0),
-               libkf5guiaddons-dev (>= 5.9.0),
-               libkf5i18n-dev (>= 5.9.0),
-               libkf5kjs-dev (>= 5.9.0),
-               libkf5widgetsaddons-dev (>= 5.9.0),
+               extra-cmake-modules (>= 5.10.0~),
+               kdoctools-dev (>= 5.10.0~),
+               libkf5auth-dev (>= 5.10.0~),
+               libkf5codecs-dev (>= 5.10.0~),
+               libkf5config-dev (>= 5.10.0~),
+               libkf5coreaddons-dev (>= 5.10.0~),
+               libkf5guiaddons-dev (>= 5.10.0~),
+               libkf5i18n-dev (>= 5.10.0~),
+               libkf5widgetsaddons-dev (>= 5.10.0~),
                libxml2-utils,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev,
+               qtbase5-dev (>= 5.4),
                xauth,
                xvfb
 Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kconfigwidgets
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kconfigwidgets.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kconfigwidgets.git
@@ -31,13 +30,13 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kconfigwidgets.git
 Package: libkf5configwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5auth-dev,
-         libkf5codecs-dev,
-         libkf5config-dev,
+Depends: libkf5auth-dev (>= 5.10.0~),
+         libkf5codecs-dev (>= 5.10.0~),
+         libkf5config-dev (>= 5.10.0~),
          libkf5configwidgets5 (= ${binary:Version}),
-         libkf5guiaddons-dev,
-         libkf5i18n-dev,
-         libkf5widgetsaddons-dev,
+         libkf5guiaddons-dev (>= 5.10.0~),
+         libkf5i18n-dev (>= 5.10.0~),
+         libkf5widgetsaddons-dev (>= 5.10.0~),
          ${misc:Depends}
 Description: development files for kconfigwidgets
  KConfigWidgets provides easy-to-use classes to create

@@ -1,8 +1,27 @@
+kconfigwidgets (5.10.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 13:05:21 +0200
+
+kconfigwidgets (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:24 +0200
+
 kconfigwidgets (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:31:19 +0200
+
+kconfigwidgets (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:55 +0100
 
 kconfigwidgets (5.8.0-0ubuntu1) vivid; urgency=medium
 
@@ -10,11 +29,30 @@ kconfigwidgets (5.8.0-0ubuntu1) vivid; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:41:37 +0100
 
+kconfigwidgets (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:49 +0100
+
 kconfigwidgets (5.7.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 16:50:41 +0100
+
+kconfigwidgets (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update install files.
+  * Update watch file.
+  * Update copyright information.
+  * Add basic autopkgtests support.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jan 2015 17:33:05 +0100
 
 kconfigwidgets (5.6.0-0ubuntu1) vivid; urgency=medium
 
@@ -51,7 +89,7 @@ kconfigwidgets (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
   * Removed upstream_Dont_construct_bugus_objects.patch applied upstream
-  * Patched symbols using batchpatch. 
+  * Patched symbols using batchpatch.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:15:39 +0200
 
