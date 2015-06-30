@@ -1,7 +1,12 @@
-kconfigwidgets (5.10.0-0ubuntu1) wily; urgency=medium
+kconfigwidgets (5.11.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 14:43:21 +0200
+
+kconfigwidgets (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
