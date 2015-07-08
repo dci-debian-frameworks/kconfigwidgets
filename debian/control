@@ -30,6 +30,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kconfigwidgets.git
 Package: libkf5configwidgets-dev
 Section: libdevel
 Architecture: any
+<<<<<<< HEAD
 Depends: libkf5auth-dev (>= 5.11.0~),
          libkf5codecs-dev (>= 5.11.0~),
          libkf5config-dev (>= 5.11.0~),
@@ -37,6 +38,15 @@ Depends: libkf5auth-dev (>= 5.11.0~),
          libkf5guiaddons-dev (>= 5.11.0~),
          libkf5i18n-dev (>= 5.11.0~),
          libkf5widgetsaddons-dev (>= 5.11.0~),
+=======
+Depends: libkf5auth-dev (>= 5.11.0),
+         libkf5codecs-dev (>= 5.11.0),
+         libkf5config-dev (>= 5.11.0),
+         libkf5configwidgets5 (= ${binary:Version}),
+         libkf5guiaddons-dev (>= 5.11.0),
+         libkf5i18n-dev (>= 5.11.0),
+         libkf5widgetsaddons-dev (>= 5.11.0),
+>>>>>>> origin/kubuntu_vivid_backports
          ${misc:Depends}
 Description: development files for kconfigwidgets
  KConfigWidgets provides easy-to-use classes to create
