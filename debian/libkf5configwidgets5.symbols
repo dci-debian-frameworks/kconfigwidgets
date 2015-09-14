@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0 amd64
 libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -6,10 +6,6 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog12showMultiTipEP7QWidgetRK11QStringListb@Base 4.96.0
  _ZN10KTipDialog14setShowOnStartEb@Base 4.96.0
  _ZN10KTipDialog16staticMetaObjectE@Base 4.96.0
- _ZN10KTipDialog7Private10_k_nextTipEv@Base 4.96.0
- _ZN10KTipDialog7Private10_k_prevTipEv@Base 4.96.0
- _ZN10KTipDialog7Private14_k_showOnStartEb@Base 4.96.0
- _ZN10KTipDialog7Private9mInstanceE@Base 4.96.0
  _ZN10KTipDialog7showTipEP7QWidgetRK7QStringb@Base 4.96.0
  _ZN10KTipDialog7showTipERK7QStringb@Base 4.96.0
  _ZN10KTipDialogC1EP12KTipDatabaseP7QWidget@Base 4.96.0
@@ -27,8 +23,6 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN12KCodecAction16staticMetaObjectE@Base 4.96.0
  _ZN12KCodecAction20defaultItemTriggeredEv@Base 4.96.0
  _ZN12KCodecAction20setCurrentProberTypeEN15KEncodingProber10ProberTypeE@Base 4.96.0
- _ZN12KCodecAction7Private21_k_subActionTriggeredEP7QAction@Base 4.96.0
- _ZN12KCodecAction7Private4initEb@Base 4.96.0
  _ZN12KCodecAction9triggeredEN15KEncodingProber10ProberTypeE@Base 4.96.0
  _ZN12KCodecAction9triggeredEP10QTextCodec@Base 4.96.0
  _ZN12KCodecActionC1EP7QObjectb@Base 4.96.0
@@ -56,8 +50,6 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN12KColorSchemeD2Ev@Base 4.96.0
  _ZN12KColorSchemeaSERKS_@Base 4.96.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
- _ZN12KTipDatabase7Private7addTipsERK7QString@Base 4.96.0
- _ZN12KTipDatabase7Private8loadTipsERK7QString@Base 4.96.0
  _ZN12KTipDatabase7nextTipEv@Base 4.96.0
  _ZN12KTipDatabase7prevTipEv@Base 4.96.0
  _ZN12KTipDatabaseC1ERK11QStringList@Base 4.96.0
