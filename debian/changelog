@@ -1,9 +1,9 @@
-kconfigwidgets (5.16.0-1~) UNRELEASED; urgency=medium
+kconfigwidgets (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Nov 2015 11:49:01 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:53 +0100
 
 kconfigwidgets (5.15.0-1) unstable; urgency=medium
 
