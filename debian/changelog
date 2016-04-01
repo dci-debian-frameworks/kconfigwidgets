@@ -1,6 +1,6 @@
-kconfigwidgets (5.20.0-1~1.gbpc691f7) UNRELEASED; urgency=medium
+kconfigwidgets (5.20.0-1~2.gbpdee567) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @c691f7495920f709f3f82b9712fe1774e8907c64 **
+  ** SNAPSHOT build @dee5675defd114a774980fcb52acdd13107732fe **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ kconfigwidgets (5.20.0-1~1.gbpc691f7) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:19:53 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:19:18 +0200
 
 kconfigwidgets (5.19.0-1) experimental; urgency=medium
 
