@@ -1,10 +1,17 @@
-kconfigwidgets (5.23.0-1~1.gbpaae89c) UNRELEASED; urgency=medium
+kconfigwidgets (5.23.0-1~2.gbp06afc0) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @06afc01a7aa9e0a2a85db5181c28409019d0225d **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @aae89c16165e22400532da45668e40d15ca75ab0 **
 
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 20:19:22 +0200
+  [ Maximiliano Curia ]
+  * Install the translated manpages
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 12 Jun 2016 23:08:21 +0200
 
 kconfigwidgets (5.22.0-1) unstable; urgency=medium
 
