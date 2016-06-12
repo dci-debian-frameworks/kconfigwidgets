@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 amd64
+# SymbolsHelper-Confirmed: 5.23.0 amd64
 libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -145,6 +145,7 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN15KStandardAction13editBookmarksEPK7QObjectPKcPS0_@Base 4.96.0
  _ZN15KStandardAction13showStatusbarEPK7QObjectPKcPS0_@Base 4.96.0
  _ZN15KStandardAction15documentForwardEPK7QObjectPKcPS0_@Base 4.96.0
+ _ZN15KStandardAction17_k_createInternalENS_14StandardActionEP7QObject@Base 5.23.0
  _ZN15KStandardAction17configureToolbarsEPK7QObjectPKcPS0_@Base 4.96.0
  _ZN15KStandardAction19shortcutForActionIdENS_14StandardActionE@Base 4.96.0
  _ZN15KStandardAction22configureNotificationsEPK7QObjectPKcPS0_@Base 4.96.0
