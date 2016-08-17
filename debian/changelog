@@ -1,11 +1,18 @@
-kconfigwidgets (5.25.0-1~1.gbp033521) UNRELEASED; urgency=medium
+kconfigwidgets (5.25.0-1~2.gbpf7bbd9) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @f7bbd9a5207661b737ebf413ca641f0c8f4054ae **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @0335216e15f3d3287ecab2e0de218399a44f60aa **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 14:19:11 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:19:19 +0200
 
 kconfigwidgets (5.23.0-1) unstable; urgency=medium
 
