@@ -1,3 +1,11 @@
+kconfigwidgets (5.26.0-1~1.gbp1b50ed) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @1b50ede553ea568cb7ca71921711d9f4badb6bba **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 17:46:49 +0200
+
 kconfigwidgets (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
