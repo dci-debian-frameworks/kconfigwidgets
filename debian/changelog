@@ -4,6 +4,17 @@ kconfigwidgets (5.26.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:30:18 +0000
 
+kconfigwidgets (5.25.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 19 Aug 2016 16:36:52 +0200
+
 kconfigwidgets (5.25.0-0neon) xenial; urgency=medium
 
   * New release
@@ -16,17 +27,50 @@ kconfigwidgets (5.24.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:42:34 +0000
 
+kconfigwidgets (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
+
+  [ Maximiliano Curia ]
+  * Install the translated manpages
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 11:06:15 +0200
+
 kconfigwidgets (5.23.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:38:41 +0000
 
+kconfigwidgets (5.22.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 20 May 2016 09:20:15 +0200
+
 kconfigwidgets (5.22.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:35:42 +0000
+
+kconfigwidgets (5.21.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Update acc test script
+  * uscan no longer supports more than one main upstream tarball being listed
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 07 May 2016 16:47:38 +0200
 
 kconfigwidgets (5.21.0-0neon) xenial; urgency=medium
 
