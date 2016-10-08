@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.25.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.26.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -179,6 +179,7 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN15KStandardAction5printEPK7QObjectPKcPS0_@Base 4.96.0
  _ZN15KStandardAction5priorEPK7QObjectPKcPS0_@Base 4.96.0
  _ZN15KStandardAction6createENS_14StandardActionEPK7QObjectPKcPS1_@Base 4.96.0
+ _ZN15KStandardAction6donateEPK7QObjectPKcPS0_@Base 5.26.0
  _ZN15KStandardAction6revertEPK7QObjectPKcPS0_@Base 4.96.0
  _ZN15KStandardAction6saveAsEPK7QObjectPKcPS0_@Base 4.96.0
  _ZN15KStandardAction6zoomInEPK7QObjectPKcPS0_@Base 4.96.0
