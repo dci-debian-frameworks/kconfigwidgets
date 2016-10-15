@@ -1,11 +1,14 @@
-kconfigwidgets (5.27.0-1~1.gbp335e58) UNRELEASED; urgency=medium
+kconfigwidgets (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @335e58ffe03d63fee31a1aac2885e8946ea124e5 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.26.0-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 14:19:54 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:01:31 +0200
 
 kconfigwidgets (5.26.0-1) unstable; urgency=medium
 
