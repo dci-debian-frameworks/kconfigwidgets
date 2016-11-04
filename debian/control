@@ -7,15 +7,15 @@ Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                docbook-xml,
                docbook-xsl,
-               extra-cmake-modules (>= 5.26.0~),
+               extra-cmake-modules (>= 5.27.0~),
                kdoctools-dev (>= 5.25.0~),
-               libkf5auth-dev (>= 5.26.0~),
-               libkf5codecs-dev (>= 5.26.0~),
-               libkf5config-dev (>= 5.26.0~),
-               libkf5coreaddons-dev (>= 5.26.0~),
-               libkf5guiaddons-dev (>= 5.26.0~),
-               libkf5i18n-dev (>= 5.26.0~),
-               libkf5widgetsaddons-dev (>= 5.26.0~),
+               libkf5auth-dev (>= 5.27.0~),
+               libkf5codecs-dev (>= 5.27.0~),
+               libkf5config-dev (>= 5.27.0~),
+               libkf5coreaddons-dev (>= 5.27.0~),
+               libkf5guiaddons-dev (>= 5.27.0~),
+               libkf5i18n-dev (>= 5.27.0~),
+               libkf5widgetsaddons-dev (>= 5.27.0~),
                libxml2-utils,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.5.0~),
@@ -29,13 +29,13 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kconfigwidgets.git
 Package: libkf5configwidgets-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5auth-dev (>= 5.26.0~),
-         libkf5codecs-dev (>= 5.26.0~),
-         libkf5config-dev (>= 5.26.0~),
+Depends: libkf5auth-dev (>= 5.27.0~),
+         libkf5codecs-dev (>= 5.27.0~),
+         libkf5config-dev (>= 5.27.0~),
          libkf5configwidgets5 (= ${binary:Version}),
-         libkf5guiaddons-dev (>= 5.26.0~),
-         libkf5i18n-dev (>= 5.26.0~),
-         libkf5widgetsaddons-dev (>= 5.26.0~),
+         libkf5guiaddons-dev (>= 5.27.0~),
+         libkf5i18n-dev (>= 5.27.0~),
+         libkf5widgetsaddons-dev (>= 5.27.0~),
          ${misc:Depends}
 Description: development files for kconfigwidgets
  KConfigWidgets provides easy-to-use classes to create
@@ -43,13 +43,13 @@ Description: development files for kconfigwidgets
  uses KConfig to store their settings.
  .
  Contains development files for kconfigwidgets.
-Breaks: libkf5bookmarks-dev (<< 5.26),
-        libkf5iconthemes-dev (<< 5.26),
-        libkf5kcmutils-dev (<< 5.26),
-        libkf5kdelibs4support-dev (<< 5.26),
-        libkf5style-dev (<< 5.26),
-        libkf5textwidgets-dev (<< 5.26),
-        libkf5xmlgui-dev (<< 5.26)
+Breaks: libkf5bookmarks-dev (<< 5.27),
+        libkf5iconthemes-dev (<< 5.27),
+        libkf5kcmutils-dev (<< 5.27),
+        libkf5kdelibs4support-dev (<< 5.27),
+        libkf5style-dev (<< 5.27),
+        libkf5textwidgets-dev (<< 5.27),
+        libkf5xmlgui-dev (<< 5.27)
 
 Package: libkf5configwidgets5
 Architecture: any
@@ -61,21 +61,21 @@ Description: Extra widgets for easier configuration support.
  KConfigWidgets provides easy-to-use classes to create
  configuration dialogs, as well as a set of widgets which
  uses KConfig to store their settings.
-Breaks: frameworkintegration (<< 5.26),
-        kdesignerplugin (<< 5.26),
-        kio (<< 5.26),
-        libkf5iconthemes5 (<< 5.26),
-        libkf5kcmutils5 (<< 5.26),
-        libkf5kdelibs4support5 (<< 5.26),
-        libkf5kdelibs4support5-bin (<< 5.26),
-        libkf5khtml5 (<< 5.26),
-        libkf5kiowidgets5 (<< 5.26),
-        libkf5plasma5 (<< 5.26),
-        libkf5style5 (<< 5.26),
-        libkf5texteditor5 (<< 5.26),
-        libkf5textwidgets5 (<< 5.26),
-        libkf5wallet-bin (<< 5.26),
-        libkf5xmlgui5 (<< 5.26)
+Breaks: frameworkintegration (<< 5.27),
+        kdesignerplugin (<< 5.27),
+        kio (<< 5.27),
+        libkf5iconthemes5 (<< 5.27),
+        libkf5kcmutils5 (<< 5.27),
+        libkf5kdelibs4support5 (<< 5.27),
+        libkf5kdelibs4support5-bin (<< 5.27),
+        libkf5khtml5 (<< 5.27),
+        libkf5kiowidgets5 (<< 5.27),
+        libkf5plasma5 (<< 5.27),
+        libkf5style5 (<< 5.27),
+        libkf5texteditor5 (<< 5.27),
+        libkf5textwidgets5 (<< 5.27),
+        libkf5wallet-bin (<< 5.27),
+        libkf5xmlgui5 (<< 5.27)
 
 Package: libkf5configwidgets-data
 Architecture: all
