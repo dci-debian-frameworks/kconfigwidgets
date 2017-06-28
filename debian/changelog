@@ -40,6 +40,13 @@ kconfigwidgets (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:06:48 +0000
 
+kconfigwidgets (5.28.0-2) unstable; urgency=medium
+
+  * Add new upstream patch:
+    KColorScheme-default-to-application-scheme-if-set-by-KCol.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 31 Mar 2017 15:26:18 +0200
+
 kconfigwidgets (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
