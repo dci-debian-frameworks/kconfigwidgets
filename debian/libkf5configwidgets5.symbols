@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.26.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -353,6 +353,8 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZNK20KConfigDialogManager10metaObjectEv@Base 4.96.0
  _ZNK20KConfigDialogManager15getUserPropertyEPK7QWidget@Base 4.96.0
  _ZNK20KConfigDialogManager17getCustomPropertyEPK7QWidget@Base 4.96.0
+ _ZNK20KConfigDialogManager28getUserPropertyChangedSignalEPK7QWidget@Base 5.35.0
+ _ZNK20KConfigDialogManager30getCustomPropertyChangedSignalEPK7QWidget@Base 5.35.0
  _ZNK20KConfigDialogManager8propertyEP7QWidget@Base 4.96.0
  _ZNK20KConfigDialogManager9isDefaultEv@Base 4.96.0
  _ZNK21KConfigViewStateSaver10metaObjectEv@Base 4.96.0
