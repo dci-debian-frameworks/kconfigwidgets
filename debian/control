@@ -43,13 +43,13 @@ Description: development files for kconfigwidgets
  uses KConfig to store their settings.
  .
  Contains development files for kconfigwidgets.
-Breaks: libkf5bookmarks-dev (<< 5.35),
-        libkf5iconthemes-dev (<< 5.35),
-        libkf5kcmutils-dev (<< 5.35),
-        libkf5kdelibs4support-dev (<< 5.35),
-        libkf5style-dev (<< 5.35),
-        libkf5textwidgets-dev (<< 5.35),
-        libkf5xmlgui-dev (<< 5.35)
+Breaks: libkf5bookmarks-dev (<< 5.36),
+        libkf5iconthemes-dev (<< 5.36),
+        libkf5kcmutils-dev (<< 5.36),
+        libkf5kdelibs4support-dev (<< 5.36),
+        libkf5style-dev (<< 5.36),
+        libkf5textwidgets-dev (<< 5.36),
+        libkf5xmlgui-dev (<< 5.36)
 
 Package: libkf5configwidgets5
 Architecture: any
@@ -62,20 +62,20 @@ Description: Extra widgets for easier configuration support.
  configuration dialogs, as well as a set of widgets which
  uses KConfig to store their settings.
 Breaks: frameworkintegration (<< 5.28),
-        kdesignerplugin (<< 5.35),
-        kio (<< 5.35),
-        libkf5iconthemes5 (<< 5.35),
-        libkf5kcmutils5 (<< 5.35),
-        libkf5kdelibs4support5 (<< 5.35),
-        libkf5kdelibs4support5-bin (<< 5.35),
-        libkf5khtml5 (<< 5.35),
-        libkf5kiowidgets5 (<< 5.35),
-        libkf5plasma5 (<< 5.35),
-        libkf5style5 (<< 5.35),
-        libkf5texteditor5 (<< 5.35),
-        libkf5textwidgets5 (<< 5.35),
-        libkf5wallet-bin (<< 5.35),
-        libkf5xmlgui5 (<< 5.35)
+        kdesignerplugin (<< 5.36),
+        kio (<< 5.36),
+        libkf5iconthemes5 (<< 5.36),
+        libkf5kcmutils5 (<< 5.36),
+        libkf5kdelibs4support5 (<< 5.36),
+        libkf5kdelibs4support5-bin (<< 5.36),
+        libkf5khtml5 (<< 5.36),
+        libkf5kiowidgets5 (<< 5.36),
+        libkf5plasma5 (<< 5.36),
+        libkf5style5 (<< 5.36),
+        libkf5texteditor5 (<< 5.36),
+        libkf5textwidgets5 (<< 5.36),
+        libkf5wallet-bin (<< 5.36),
+        libkf5xmlgui5 (<< 5.36)
 
 Package: libkf5configwidgets-data
 Architecture: all
