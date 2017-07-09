@@ -1,4 +1,4 @@
-kconfigwidgets (5.36.0-1~) UNRELEASED; urgency=medium
+kconfigwidgets (5.36.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -9,6 +9,8 @@ kconfigwidgets (5.36.0-1~) UNRELEASED; urgency=medium
   * Update symbols files.
   * watch: Use https uris
   * New upstream release (5.36.0).
+  * Bump group breaks (5.36)
+  * Update build-deps and deps with the info from cmake
 
   [ Harald Sitter ]
   * headers now require C++11
@@ -17,7 +19,7 @@ kconfigwidgets (5.36.0-1~) UNRELEASED; urgency=medium
   * Add signing key
   * also include signing-key
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:43:08 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:41:59 +0200
 
 kconfigwidgets (5.28.0-2) unstable; urgency=medium
 
