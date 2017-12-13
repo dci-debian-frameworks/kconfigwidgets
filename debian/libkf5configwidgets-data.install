@@ -1,4 +1,5 @@
+etc/
 usr/bin/preparetips5
-usr/share/locale/*/*/kconfigwidgets5.mo
-usr/share/locale/*/kf5_entry.desktop
+usr/share/locale/*
+usr/share/man/*/man1/preparetips5.1
 usr/share/man/*/man1/preparetips5.1
