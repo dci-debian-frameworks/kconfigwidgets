@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.35.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN10KTipDialog11eventFilterEP7QObjectP6QEvent@Base 4.96.0
  _ZN10KTipDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -70,13 +70,6 @@ libKF5ConfigWidgets.so.5 libkf5configwidgets5 #MINVER#
  _ZN13KConfigDialog15settingsChangedERK7QString@Base 4.96.0
  _ZN13KConfigDialog16staticMetaObjectE@Base 4.96.0
  _ZN13KConfigDialog19settingsChangedSlotEv@Base 4.96.0
- _ZN13KConfigDialog20KConfigDialogPrivate11openDialogsE@Base 4.96.0
- _ZN13KConfigDialog20KConfigDialogPrivate15addPageInternalEP7QWidgetRK7QStringS5_S5_@Base 4.96.0
- _ZN13KConfigDialog20KConfigDialogPrivate16_k_updateButtonsEv@Base 4.96.0
- _ZN13KConfigDialog20KConfigDialogPrivate21setApplyButtonEnabledEb@Base 4.96.0
- _ZN13KConfigDialog20KConfigDialogPrivate22_k_settingsChangedSlotEv@Base 4.96.0
- _ZN13KConfigDialog20KConfigDialogPrivate23setupManagerConnectionsEP20KConfigDialogManager@Base 4.96.0
- _ZN13KConfigDialog20KConfigDialogPrivate31setRestoreDefaultsButtonEnabledEb@Base 4.96.0
  _ZN13KConfigDialog20updateWidgetsDefaultEv@Base 4.96.0
  _ZN13KConfigDialog6existsERK7QString@Base 4.96.0
  _ZN13KConfigDialog7addPageEP7QWidgetP19KCoreConfigSkeletonRK7QStringS6_S6_@Base 4.96.0
